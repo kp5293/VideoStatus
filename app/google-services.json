@@ -1,0 +1,211 @@
+{
+  "project_info": {
+    "project_number": "1059114446820",
+    "firebase_url": "https://bold-future-166809.firebaseio.com",
+    "project_id": "bold-future-166809",
+    "storage_bucket": "bold-future-166809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059114446820:android:81e9496d428aa165",
+        "android_client_info": {
+          "package_name": "demo.destiny.com.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059114446820-g54b3qfkcljehges3tpte5jc1lopdfek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.destiny.com.demo",
+            "certificate_hash": "4209e476bbd1a4b1a0b0212eb962fddf0ae43709"
+          }
+        },
+        {
+          "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGfyalPc4RUixhh6xOXH4OuVMsPkv7agI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059114446820:android:e7009a11840f8ee0",
+        "android_client_info": {
+          "package_name": "demo.destiny.skylix.dpandstatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059114446820-msduk7utfneopir65q6ousgtgc3uj5jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.destiny.skylix.dpandstatus",
+            "certificate_hash": "8531e286690c8c2ee83c3c64fbdd1f7a91094779"
+          }
+        },
+        {
+          "client_id": "1059114446820-2omdgn5kkuvrq7eo1qekh3puppks8cit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "demo.destiny.skylix.dpandstatus",
+            "certificate_hash": "d0bb99d61461fbad0f8852c27a1122460ac34c05"
+          }
+        },
+        {
+          "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGfyalPc4RUixhh6xOXH4OuVMsPkv7agI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059114446820:android:f78216a2de11317d",
+        "android_client_info": {
+          "package_name": "com.example.destiny.firebasecustomauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059114446820-7ecd40tmsv472apvblub9f8ac13aen7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.destiny.firebasecustomauth",
+            "certificate_hash": "8531e286690c8c2ee83c3c64fbdd1f7a91094779"
+          }
+        },
+        {
+          "client_id": "1059114446820-cvcbah030t473sosm0m80mbsanghg7vt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.destiny.firebasecustomauth",
+            "certificate_hash": "4209e476bbd1a4b1a0b0212eb962fddf0ae43709"
+          }
+        },
+        {
+          "client_id": "1059114446820-qrb9ugn3d1ghb794hu6nl991e4i59ads.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.destiny.firebasecustomauth",
+            "certificate_hash": "ca1d7475ee19d24071c21dbe61136ab6aee2f945"
+          }
+        },
+        {
+          "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGfyalPc4RUixhh6xOXH4OuVMsPkv7agI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059114446820:android:85f1d980c8c14478",
+        "android_client_info": {
+          "package_name": "com.skylix.videostatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059114446820-0nsot4smeljgdq42o7ol6bg6r6b5do5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skylix.videostatus",
+            "certificate_hash": "3e081146addbb281ce9bafcfc93f1f53fe5fcb82"
+          }
+        },
+        {
+          "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGfyalPc4RUixhh6xOXH4OuVMsPkv7agI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059114446820-qrsifrsvqd8hcli14b4f3964r0g1imen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

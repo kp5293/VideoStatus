@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="@dimen/cardview_default_elevation"
+
+        >
+
+        <TextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Gujarati"
+            android:layout_margin="10dp"
+            android:textColor="@color/Black"
+            android:textSize="20dp" />
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

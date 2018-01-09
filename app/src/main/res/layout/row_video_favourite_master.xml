@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="@dimen/cardview_default_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/rowVideoId"
+                    style="@style/RowTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center"
+                    android:text="ID" />
+
+                <TextView
+                    android:id="@+id/rowVideoType"
+                    style="@style/RowTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="left"
+                    android:text="StatusType" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+               >
+
+                <VideoView
+                    android:id="@+id/rowVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/imgLikes"
+                    style="@style/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/like_off" />
+
+                <ImageView
+                    android:id="@+id/imgDislikes"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dislike_off" />
+
+                <com.varunest.sparkbutton.SparkButton
+                    android:id="@+id/heart_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    app:sparkbutton_activeImage="@drawable/heart_on"
+                    app:sparkbutton_inActiveImage="@drawable/heart_off"
+                    app:sparkbutton_primaryColor="@color/heart_primary_color"
+                    app:sparkbutton_secondaryColor="@color/heart_secondary_color" />
+
+                <ImageView
+                    android:id="@+id/imgDownload"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/download"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imgShare"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/share"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rowTxtLikes"
+                    style="@style/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+
+                    />
+
+                <TextView
+                    android:id="@+id/rowTxtDislikes"
+                    style="@style/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5"
+
+                    />
+
+                <TextView
+                    android:id="@+id/favCounter"
+                    style="@style/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="5"
+
+                    />
+
+                <TextView
+
+                    style="@style/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+                <TextView
+                    style="@style/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

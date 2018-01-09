@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/SignInView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userUploadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ir.hamsaa.RtlMaterialSpinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dropDownVerticalOffset="50dp"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:splitMotionEvents="true"
+                app:ms_arrowColor="#0000FF"
+                app:ms_enableFloatingLabel="false"
+
+                />
+
+            <ir.hamsaa.RtlMaterialSpinner
+                android:id="@+id/languageSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:dropDownVerticalOffset="50dp"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:splitMotionEvents="true"
+                app:ms_arrowColor="#0000FF"
+                app:ms_enableFloatingLabel="false"
+
+                />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="Posted By"
+                android:singleLine="true"
+
+                />
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+                android:gravity="start"
+                android:hint="Title"
+                android:singleLine="true"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivVideoThumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/placeholder"
+                    tools:ignore="ContentDescription"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+
+                <Button
+                    android:id="@+id/btnChooseVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Choose File"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="0.4"
+                    android:orientation="horizontal">
+
+                    <VideoView
+                        android:id="@+id/video_gif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnUploadVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:text="Upload"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

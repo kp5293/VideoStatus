@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F </color>
+    <color name="colorPrimaryDark">#B71C1C </color>
+    <color name="tablayout">#a1887f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="heart_primary_color">#da4439</color>
+    <color name="heart_secondary_color">#8a098c</color>
+
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Grey_300">#E0E0E0</color>
+
+</resources>

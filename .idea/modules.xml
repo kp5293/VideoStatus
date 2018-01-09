@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpinnerLibrary/SpinnerLibrary.iml" filepath="$PROJECT_DIR$/SpinnerLibrary/SpinnerLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoStatus.iml" filepath="$PROJECT_DIR$/VideoStatus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparkbutton/sparkbutton.iml" filepath="$PROJECT_DIR$/sparkbutton/sparkbutton.iml" />
+    </modules>
+  </component>
+</project>
