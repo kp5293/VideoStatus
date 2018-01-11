@@ -1,0 +1,54 @@
+I did it this way. Might help someone. I don't know whether it's the best way to do it but works fine for me.
+
+UPDATE: To fix fast scrolling behaviour, override onViewDetachedFromWindow method of the adapter and call clearAnimation on the animated view (in this case, holder.itemView.clearAnimation() ).Like this:
+
+--Code Start--
+
+@Override
+public void onViewDetachedFromWindow(ViewHolder holder) {
+    super.onViewDetachedFromWindow(holder);
+    holder.itemView.clearAnimation();
+}
+
+--Code End--
+
+--up_from_bottom.xml
+
+--Code Start--
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+ android:shareInterpolator="@android:anim/decelerate_interpolator">
+<translate
+    android:fromXDelta="0%" android:toXDelta="0%"
+    android:fromYDelta="100%" android:toYDelta="0%"
+    android:duration="400" />
+</set>
+
+--Code End----
+
+down_from_top.xml
+
+--Code Start--
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+ android:shareInterpolator="@android:anim/decelerate_interpolator">
+<translate
+    android:fromXDelta="0%" android:toXDelta="0%"
+    android:fromYDelta="-100%" android:toYDelta="0%"
+    android:duration="400" />
+</set>
+
+--Code End--
+
+--And finally put this code in onBindViewHolder of recyclerView. Create a field called lastPosition and initialize it to -1.
+
+--Code Start--
+Animation animation = AnimationUtils.loadAnimation(context,
+            (position > lastPosition) ? R.anim.up_from_bottom
+                    : R.anim.down_from_top);
+    holder.itemView.startAnimation(animation);
+    lastPosition = position;
+
+
+--Code End--
